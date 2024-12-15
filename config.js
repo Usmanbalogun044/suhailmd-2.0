@@ -21,7 +21,7 @@ global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/suhailmd-2
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "© Dollarhunter" 
+global.caption = process.env.CAPTION || global.caption || "© SuhailTechInfo" 
 
 
 global.devs = "" // Developer Contact
@@ -74,8 +74,8 @@ module.exports = {
   VERSION : process.env.VERSION || "1.0.1-developement-x",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
-  author : process.env.PACK_AUTHER|| "dollarhunter",
-  packname: process.env.PACK_NAME || "dollarhunter",
+  author : process.env.PACK_AUTHER|| "",
+  packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "dollarhunter-bot",
   ownername:process.env.OWNER_NAME|| "dollarhunter",
 
